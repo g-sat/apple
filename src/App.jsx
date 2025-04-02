@@ -5,6 +5,7 @@ import Highlights from "./components/Highlights"
 import HowItWorks from "./components/HowItWorks"
 import Model from "./components/Model"
 import Navbar from "./components/Navbar"
+import { Analytics } from '@vercel/analytics/react';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Features />
       <HowItWorks />
       <Footer />
+      <Analytics />
       </main>
   )
 }
